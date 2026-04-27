@@ -1,5 +1,5 @@
 name: "Brother Scanner (Scanservjs)"
-version: "1.0.1"
+version: "1.0.2"
 slug: "brother_scanner"
 description: "Working x86_64 Scanservjs scanner server for Brother (brscan4) printers."
 arch:
@@ -10,6 +10,8 @@ full_access: true
 ports:
   8080/tcp: 8124
 webui: "http://[HOST]:[PORT:8080]"
+ingress: true
+ingress_port: 8080
 panel_icon: mdi:scanner
 panel_title: "Scanner"
 panel_admin: false
