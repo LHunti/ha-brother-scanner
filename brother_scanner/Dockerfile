@@ -1,4 +1,5 @@
-FROM sbs20/scanservjs:latest
+FROM sbs20/scanservjs:latest 
+# Current v3.0.4
 
 USER root
 
