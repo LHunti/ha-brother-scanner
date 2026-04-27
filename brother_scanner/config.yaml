@@ -1,14 +1,15 @@
 name: "Brother Scanner (Scanservjs)"
-version: "1.0.0"
+version: "1.0.1"
 slug: "brother_scanner"
-description: "Működő x86_64 Scanservjs szkenner szerver Brother (brscan4) nyomtatókhoz. Hibajavított verzió."
+description: "Working x86_64 Scanservjs scanner server for Brother (brscan4) printers."
 arch:
   - amd64
 startup: application
 boot: auto
 full_access: true
 ports:
-  8080/tcp: 8080
+  8080/tcp: 8124
+webui: "http://[HOST]:[PORT:8080]"
 panel_icon: mdi:scanner
 panel_title: "Scanner"
 panel_admin: false
