@@ -27,4 +27,4 @@ This add-on uses the `brscan4` driver. It's tested with the **Brother DCP-1510**
 - Inspired by the original (but broken) [ha-scanservjs-addon](https://github.com/niallr/ha-scanservjs-addon).
 
 ## License
-MIT
+Apache-2.0
